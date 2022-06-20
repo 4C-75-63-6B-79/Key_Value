@@ -25,8 +25,8 @@ div {
 }
 
 .big {
-    width: 400px;
-    flex: 1 1 400px;
+    width: 350px;
+    flex: 1 1 350px;
     font-size: 200px;
 }
 
