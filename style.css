@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.empty{
+    height: 75px;
+    flex: 1 1 auto;
+}
+
+.big {
+    width: 400px;
+    flex: 1 1 400px;
+    font-size: 200px;
+}
+
+.small {
+    min-width: 200px;
+    padding: 40px;
+    flex: 1 1 200px;
+    font-size: 100px;
+}
+
+.big,
+.small {
+    border: 2px solid lightsalmon;
+    border-radius: 20px;
+    background-color: lightgray;
+    box-shadow: 0 0 10px lightgray;
+}
+
+
